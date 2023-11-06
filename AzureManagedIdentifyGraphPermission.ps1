@@ -22,5 +22,5 @@ foreach($AppRole in $AppRoles){
   }
 
   New-MgServicePrincipalAppRoleAssignment -ServicePrincipalId $AppRoleAssignment.PrincipalId -BodyParameter $AppRoleAssignment
-  }
+}
 
