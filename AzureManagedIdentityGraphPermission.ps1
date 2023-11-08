@@ -1,3 +1,4 @@
+Register-PSRepository -Default  
 Install-Module Microsoft.Graph
 Connect-MgGraph -Scopes AppRoleAssignment.ReadWrite.All,Application.Read.All
 
