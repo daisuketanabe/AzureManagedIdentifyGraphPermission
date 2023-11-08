@@ -1,3 +1,4 @@
+Install-Module Microsoft.Graph
 Connect-MgGraph -Scopes AppRoleAssignment.ReadWrite.All,Application.Read.All
 
 $GraphAppId = "00000003-0000-0000-c000-000000000000" # Microsoft Graph AppId
